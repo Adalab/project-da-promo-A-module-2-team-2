@@ -1,5 +1,0 @@
-Creo que según hemos estudiado en las clases invertidas, la mejor y facil manera de unir en un unico csv sería de la siguiente forma:
-
-concatenar = pd.concat([archivo_csv,archivo_txt,df], axis=1, join='outer', ignore_index=False)
-concatenar.head()
-
